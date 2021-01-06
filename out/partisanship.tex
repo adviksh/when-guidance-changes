@@ -1,0 +1,20 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         &\multicolumn{1}{c}{(5)}         &\multicolumn{1}{c}{(6)}         \\
+                    &\shortstack{Update \\ magnitude}         &\shortstack{Update \\ magnitude}         &\shortstack{Update \\ magnitude}         &\shortstack{Update \\ propensity}         &\shortstack{Update \\ propensity}         &\shortstack{Update \\ propensity}         \\
+\hline
+Inconsistent        &       0.118         &      -0.993\sym{*}  &      -0.818\sym{**} &      0.0237         &     -0.0928\sym{*}  &     -0.0701\sym{**} \\
+                    &     (0.403)         &     (0.572)         &     (0.385)         &    (0.0381)         &    (0.0518)         &    (0.0337)         \\
+\hline
+Observations        &         659         &         381         &         860         &         659         &         381         &         860         \\
+Sample              &Support Trump         &   Undecided         &Oppose Trump         &Support Trump         &   Undecided         &Oppose Trump         \\
+Mean prior government credibility&       0.331         &      -0.012         &      -0.237         &       0.331         &      -0.012         &      -0.237         \\
+\ul{\textit{p}-value from:}&                     &                     &                     &                     &                     &                     \\
+Support Trump = Not Support Trump&         .06         &                     &                     &        .036         &                     &                     \\
+\hline\hline
+\multicolumn{7}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{7}{l}{\footnotesize \sym{*} \(p<0.1\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}

@@ -1,0 +1,16 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         &\multicolumn{1}{c}{(5)}         &\multicolumn{1}{c}{(6)}         \\
+                    &\shortstack{Update magnitude: \\ death rate \\ (for ages: 50--80)}         &\shortstack{Update magnitude: \\ death rate \\ (for ages: 20--50)}         &\shortstack{Update magnitude: \\ Dow Jones \\ Index}         &\shortstack{Net update: \\ death rate \\ (for ages: 50--80)}         &\shortstack{Net update: \\ death rate \\ (for ages: 20--50)}         &\shortstack{Net update: \\ Dow Jones \\ Index}         \\
+\hline
+Inconsistent        &       0.824         &       0.295         &      -0.180         &      -2.685\sym{**} &      -0.348         &     -0.0135         \\
+                    &     (1.233)         &     (0.697)         &     (0.160)         &     (1.220)         &     (0.636)         &    (0.0433)         \\
+\hline
+Observations        &        1900         &        1900         &        1900         &        1900         &        1900         &        1900         \\
+\hline\hline
+\multicolumn{7}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{7}{l}{\footnotesize \sym{*} \(p<0.1\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}

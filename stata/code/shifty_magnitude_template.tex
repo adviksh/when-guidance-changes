@@ -1,0 +1,55 @@
+\begin{tabular}{l c c c c}
+  \hline
+  \hline
+ & (1) & (2) & (3) \\ 
+  Sample: & \shortstack{Update magnitude: \\ $\ln(|\text{posterior} -
+  \text{prior}|+1)$} & \shortstack{Update propensity: \\ $1(\text{posterior}
+  \neq \text{prior})$} & \shortstack{Net update: \\
+  $\ln(\text{posterior})$, \\ control $\ln(\text{prior})$ } &
+                                                              \shortstack{Width
+                                                              of \\
+  confidence interval \\ (log)} \\
+  \hline  
+All & $$update_mag_deaths_starbeta$$ & $$update_covid_starbeta$$
+             & $$ln_deaths_starbeta$$ & $$ln_width_starbeta$$ \\
+& ($$update_mag_deaths_se$$) & ($$update_covid_se$$) &
+                                                       ($$ln_deaths_se$$)
+                   & ($$ln_width_se$$) \\
+Observations & $$update_mag_deaths_n$$ & $$update_covid_n$$
+             & $$ln_deaths_n$$ & $$ln_width_n$$ \\
+\multicolumn{1}{l}{ \underline{$p$-value}:} \\  
+\multicolumn{1}{l}{ \ \ \ \ \ \ \ \ Robust standard errors}
+  & $$update_mag_deaths_p$$ & $$update_covid_p$$ & $$ln_deaths_p$$
+                   & $$ln_width_p$$ \\
+\multicolumn{1}{l}{ \ \ \ \ \ \ \ \ Permutation test}
+  & $$update_mag_deaths_rip$$ & $$update_covid_rip$$
+             & $$ln_deaths_rip$$ & $$ln_width_rip$$ \\
+  \hline 
+Priors below info (optimists) & $$update_mag_deaths_above_starbeta$$ & $$update_covid_above_starbeta$$
+       & $$ln_deaths_above_starbeta$$ & $$ln_width_above_starbeta$$ \\
+  & ($$update_mag_deaths_above_se$$) & ($$update_covid_above_se$$) &
+                                                                     ($$ln_deaths_above_se$$)
+                   & ($$ln_width_above_se$$) \\
+Observations & $$update_mag_deaths_above_n$$
+       & $$update_covid_above_n$$ & $$ln_deaths_above_n$$
+                   & $$ln_width_above_n$$ \\
+  \hline
+Priors at info & $$update_mag_deaths_at_starbeta$$ & $$update_covid_at_starbeta$$
+       & $$ln_deaths_at_starbeta$$ & $$ln_width_at_starbeta$$ \\
+  & ($$update_mag_deaths_at_se$$) & ($$update_covid_at_se$$) &
+                                                               ($$ln_deaths_at_se$$)
+                   & ($$ln_width_at_se$$) \\
+Observations & $$update_mag_deaths_at_n$$ & $$update_covid_at_n$$
+             & $$ln_deaths_at_n$$ & $$ln_width_at_n$$ \\
+  \hline
+Priors above info (pessimists) & $$update_mag_deaths_below_starbeta$$ & $$update_covid_below_starbeta$$
+       & $$ln_deaths_below_starbeta$$ & $$ln_width_below_starbeta$$ \\
+  & ($$update_mag_deaths_below_se$$) & ($$update_covid_below_se$$) &
+                                                               ($$ln_deaths_below_se$$)
+                   & ($$ln_width_below_se$$) \\
+Observations & $$update_mag_deaths_below_n$$ & $$update_covid_below_n$$
+             & $$ln_deaths_below_n$$ & $$ln_width_below_n$$ \\
+  \hline   
+\hline 
+\end{tabular}
+

@@ -1,0 +1,151 @@
+allobs,    1,900
+belowobs,      909
+atobs,      544
+aboveobs,      447
+gov_index_p,    0.016
+gov_index_beta,   -0.037
+gov_index_starbeta,-0.037**
+gov_index_se, 0.016
+gov_index_n,1900
+gov_index_r2, 0.63
+gov_index_above_p, 0.75
+gov_index_above_beta,   -0.011
+gov_index_above_starbeta,   -0.011
+gov_index_above_se, 0.033
+gov_index_above_n,447
+gov_index_above_r2, 0.65
+gov_index_at_p, 0.01
+gov_index_at_beta,   -0.075
+gov_index_at_starbeta,-0.075**
+gov_index_at_se, 0.030
+gov_index_at_n,544
+gov_index_at_r2, 0.68
+gov_index_below_p, 0.33
+gov_index_below_beta,   -0.022
+gov_index_below_starbeta,   -0.022
+gov_index_below_se, 0.022
+gov_index_below_n,909
+gov_index_below_r2, 0.60
+gov_not_strong_p,    0.889
+gov_not_strong_beta,   -0.005
+gov_not_strong_starbeta,   -0.005
+gov_not_strong_se, 0.035
+gov_not_strong_n,1900
+gov_not_strong_r2, 0.42
+gov_not_strong_above_p, 0.61
+gov_not_strong_above_beta,    0.040
+gov_not_strong_above_starbeta,    0.040
+gov_not_strong_above_se, 0.078
+gov_not_strong_above_n,447
+gov_not_strong_above_r2, 0.38
+gov_not_strong_at_p, 0.69
+gov_not_strong_at_beta,    0.027
+gov_not_strong_at_starbeta,    0.027
+gov_not_strong_at_se, 0.069
+gov_not_strong_at_n,544
+gov_not_strong_at_r2, 0.44
+gov_not_strong_below_p, 0.41
+gov_not_strong_below_beta,   -0.039
+gov_not_strong_below_starbeta,   -0.039
+gov_not_strong_below_se, 0.047
+gov_not_strong_below_n,909
+gov_not_strong_below_r2, 0.45
+gov_app_p,    0.000
+gov_app_beta,   -0.119
+gov_app_starbeta,-0.119***
+gov_app_se, 0.026
+gov_app_n,1900
+gov_app_r2, 0.69
+gov_app_above_p, 0.43
+gov_app_above_beta,   -0.046
+gov_app_above_starbeta,   -0.046
+gov_app_above_se, 0.059
+gov_app_above_n,447
+gov_app_above_r2, 0.68
+gov_app_at_p, 0.00
+gov_app_at_beta,   -0.208
+gov_app_at_starbeta,-0.208***
+gov_app_at_se, 0.050
+gov_app_at_n,544
+gov_app_at_r2, 0.72
+gov_app_below_p, 0.01
+gov_app_below_beta,   -0.096
+gov_app_below_starbeta,-0.096***
+gov_app_below_se, 0.036
+gov_app_below_n,909
+gov_app_below_r2, 0.67
+gov_overreact_p,    0.230
+gov_overreact_beta,    0.038
+gov_overreact_starbeta,    0.038
+gov_overreact_se, 0.031
+gov_overreact_n,1900
+gov_overreact_r2, 0.52
+gov_overreact_above_p, 0.54
+gov_overreact_above_beta,    0.042
+gov_overreact_above_starbeta,    0.042
+gov_overreact_above_se, 0.069
+gov_overreact_above_n,447
+gov_overreact_above_r2, 0.48
+gov_overreact_at_p, 0.16
+gov_overreact_at_beta,    0.073
+gov_overreact_at_starbeta,    0.073
+gov_overreact_at_se, 0.052
+gov_overreact_at_n,544
+gov_overreact_at_r2, 0.55
+gov_overreact_below_p, 0.56
+gov_overreact_below_beta,    0.027
+gov_overreact_below_starbeta,    0.027
+gov_overreact_below_se, 0.047
+gov_overreact_below_n,909
+gov_overreact_below_r2, 0.54
+gov_has_private_info_p,    0.894
+gov_has_private_info_beta,    0.004
+gov_has_private_info_starbeta,    0.004
+gov_has_private_info_se, 0.031
+gov_has_private_info_n,1900
+gov_has_private_info_r2, 0.53
+gov_has_private_info_above_p, 0.23
+gov_has_private_info_above_beta,    0.082
+gov_has_private_info_above_starbeta,    0.082
+gov_has_private_info_above_se, 0.068
+gov_has_private_info_above_n,447
+gov_has_private_info_above_r2, 0.56
+gov_has_private_info_at_p, 0.85
+gov_has_private_info_at_beta,   -0.010
+gov_has_private_info_at_starbeta,   -0.010
+gov_has_private_info_at_se, 0.052
+gov_has_private_info_at_n,544
+gov_has_private_info_at_r2, 0.65
+gov_has_private_info_below_p, 0.92
+gov_has_private_info_below_beta,   -0.005
+gov_has_private_info_below_starbeta,   -0.005
+gov_has_private_info_below_se, 0.047
+gov_has_private_info_below_n,909
+gov_has_private_info_below_r2, 0.47
+vote_trump_p,    0.505
+vote_trump_beta,   -0.010
+vote_trump_starbeta,   -0.010
+vote_trump_se, 0.016
+vote_trump_n,1900
+vote_trump_r2, 0.89
+vote_trump_above_p, 0.20
+vote_trump_above_beta,   -0.035
+vote_trump_above_starbeta,   -0.035
+vote_trump_above_se, 0.027
+vote_trump_above_n,447
+vote_trump_above_r2, 0.92
+vote_trump_at_p, 0.94
+vote_trump_at_beta,   -0.002
+vote_trump_at_starbeta,   -0.002
+vote_trump_at_se, 0.029
+vote_trump_at_n,544
+vote_trump_at_r2, 0.90
+vote_trump_below_p, 0.88
+vote_trump_below_beta,    0.004
+vote_trump_below_starbeta,    0.004
+vote_trump_below_se, 0.025
+vote_trump_below_n,909
+vote_trump_below_r2, 0.85
+gov_index_p_below_at,    0.150
+gov_index_p_at_above,    0.143
+gov_index_p_below_above,    0.775

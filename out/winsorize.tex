@@ -1,0 +1,18 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{3}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         \\
+                    &\shortstack{Update magnitude: \\ $ \ln(|\text{posterior}-\text{prior} | + 1) $}         &\shortstack{Update magnitude: \\ $ \ln(|\text{posterior}-\text{prior} | + 1) $}         &\shortstack{Update magnitude: \\ $ \ln(|\text{posterior}-\text{prior} | + 1) $}         \\
+\hline
+Inconsistent        &      -0.496\sym{**} &      -0.495\sym{**} &      -0.482\sym{**} \\
+                    &     (0.247)         &     (0.243)         &     (0.239)         \\
+\hline
+Observations        &        1900         &        1900         &        1900         \\
+$p$-value           &       0.045         &       0.042         &       0.044         \\
+Percentile for winsorization&          99         &          95         &          90         \\
+\hline\hline
+\multicolumn{4}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{4}{l}{\footnotesize \sym{*} \(p<0.1\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}

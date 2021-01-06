@@ -1,0 +1,21 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{6}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         &\multicolumn{1}{c}{(5)}         &\multicolumn{1}{c}{(6)}         \\
+                    &\shortstack{Update propensity: \\ $ 1(\text{post.} \neq \text{prior}) $}         &\shortstack{Update mag.: \\ $ \ln(|\text{post.}-\text{prior}|+1) $}         &\shortstack{Govt. credibility \\ index}         &\shortstack{Update propensity: \\ $ 1(\text{post.} \neq \text{prior}) $}         &\shortstack{Update mag.: \\ $ \ln(|\text{post.}-\text{prior}|+1) $}         &\shortstack{Govt. credibility \\ index}         \\
+\hline
+ln(deaths) $ \times $ Inconsistent&     -0.0120         &      -0.116         &   -0.000554         &     -0.0166         &      -0.139         &     -0.0113         \\
+                    &    (0.0118)         &     (0.140)         &   (0.00846)         &    (0.0142)         &     (0.149)         &   (0.00957)         \\
+[1em]
+Inconsistent        &      0.0946         &       0.784         &     -0.0309         &       0.140         &       0.985         &      0.0749         \\
+                    &     (0.134)         &     (1.539)         &    (0.0960)         &     (0.158)         &     (1.618)         &     (0.107)         \\
+\hline
+Observations        &        1900         &        1900         &        1900         &        1762         &        1762         &        1762         \\
+$ p $-value of interaction&       0.310         &       0.408         &       0.948         &       0.245         &       0.351         &       0.239         \\
+Sample              &         All         &         All         &         All         &  Restricted         &  Restricted         &  Restricted         \\
+\hline\hline
+\multicolumn{7}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{7}{l}{\footnotesize \sym{*} \(p<0.1\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}

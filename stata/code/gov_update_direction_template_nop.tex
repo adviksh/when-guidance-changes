@@ -1,0 +1,47 @@
+\begin{tabular}{l c c c c c c c} 
+  \hline
+  \hline
+  & (1) & (2) & (3) & (4) & (5) & (6) & (7) \\
+  & Index & \multicolumn{4}{c}{Sub-scale} &
+                                                             Related outcome \\
+  \cmidrule(l){2-2} \cmidrule(l){3-6} \cmidrule(l){7-7} 
+Sample: & \shortstack{Government \\ credibility index \\
+  (columns 2--5) } &
+                                                     \shortstack{Government's                     
+                                                                    \\
+  action
+  is not \\ strong enough } &
+                                                                \shortstack{Government's
+  \\ action is 
+  \\ appropriate}  & \shortstack{Government \\ is \\ over-reacting} &
+                                                         \shortstack{Government \\
+                                                         has private \\
+  info} & \shortstack{Support \\ President \\ Trump} & $N$ \\  
+  \hline 
+1. All  & $$gov_index_starbeta$$ & $$gov_not_strong_starbeta$$ & $$gov_app_starbeta$$ & $$gov_overreact_starbeta$$ & $$gov_has_private_info_starbeta$$
+             & $$vote_trump_starbeta$$ & $$allobs$$ \\ 
+& ($$gov_index_se$$) & ($$gov_not_strong_se$$) & ($$gov_app_se$$) & ($$gov_overreact_se$$) & ($$gov_has_private_info_se$$)
+                               & ($$vote_trump_se$$) \\
+\\
+2. Priors below projection (optimists) & $$gov_index_below_starbeta$$ & $$gov_not_strong_below_starbeta$$ & $$gov_app_below_starbeta$$ & $$gov_overreact_below_starbeta$$ & $$gov_has_private_info_below_starbeta$$
+             & $$vote_trump_below_starbeta$$ & $$belowobs$$\\ 
+  & ($$gov_index_below_se$$) & ($$gov_not_strong_below_se$$) & ($$gov_app_below_se$$) & ($$gov_overreact_below_se$$) & ($$gov_has_private_info_below_se$$)
+             & ($$vote_trump_below_se$$) \\
+\\
+3. Priors at projection & $$gov_index_at_starbeta$$ & $$gov_not_strong_at_starbeta$$ & $$gov_app_at_starbeta$$ & $$gov_overreact_at_starbeta$$ & $$gov_has_private_info_at_starbeta$$
+             & $$vote_trump_at_starbeta$$ & $$atobs$$\\ 
+  & ($$gov_index_at_se$$) & ($$gov_not_strong_at_se$$) & ($$gov_app_at_se$$) & ($$gov_overreact_at_se$$) & ($$gov_has_private_info_at_se$$)
+             & ($$vote_trump_at_se$$) \\
+\\
+4. Priors above projection (pessimists) & $$gov_index_above_starbeta$$ & $$gov_not_strong_above_starbeta$$ & $$gov_app_above_starbeta$$ & $$gov_overreact_above_starbeta$$ & $$gov_has_private_info_above_starbeta$$
+             & $$vote_trump_above_starbeta$$ & $$aboveobs$$ \\
+ & ($$gov_index_above_se$$) & ($$gov_not_strong_above_se$$) & ($$gov_app_above_se$$) & ($$gov_overreact_above_se$$) & ($$gov_has_private_info_above_se$$)
+                                & ($$vote_trump_above_se$$) \\
+  \hline
+  5. \ul{Tests}: \\
+  \ \ \ \ \ \ \ \   Row 2 vs. Row 3 & $$gov_index_p_below_at$$ \\
+  \ \ \ \ \ \ \ \   Row 3 vs. Row 4 & $$gov_index_p_at_above$$ \\
+  \ \ \ \ \ \ \ \  Row 2 vs. Row 4 & $$gov_index_p_below_above$$ \\
+  \hline
+  \hline 
+\end{tabular}

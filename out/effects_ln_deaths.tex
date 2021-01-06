@@ -1,0 +1,17 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{4}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         \\
+                    &\shortstack{Net update: \\ ln(posterior)}         &\shortstack{Net update: \\ ln(posterior)}         &\shortstack{Net update: \\ ln(posterior)}         &\shortstack{Net update: \\ ln(posterior)}         \\
+\hline
+Inconsistent        &     -0.0250         &     -0.0893         &      0.0549         &     0.00528         \\
+                    &    (0.0511)         &    (0.0832)         &    (0.0583)         &     (0.127)         \\
+\hline
+Observations        &        1900         &         909         &         544         &         447         \\
+Sample:             &         All         &Priors below info         &Priors at info         &Priors above info         \\
+\hline\hline
+\multicolumn{5}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.1\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}

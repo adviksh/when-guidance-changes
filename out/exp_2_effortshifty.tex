@@ -1,0 +1,17 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{8}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         &\multicolumn{1}{c}{(4)}         &\multicolumn{1}{c}{(5)}         &\multicolumn{1}{c}{(6)}         &\multicolumn{1}{c}{(7)}         &\multicolumn{1}{c}{(8)}         \\
+                    &\shortstack{Index \\ (sd)}         &\shortstack{Accuracy \\ (sd)}         &\shortstack{Speed \\ clicks (sd)}         &\shortstack{Speed \\ time on page (sd)}         &\shortstack{Index \\ (sd)}         &\shortstack{Accuracy \\ (sd)}         &\shortstack{Speed \\ clicks (sd)}         &\shortstack{Speed \\ time on page (sd)}         \\
+\hline
+Inconsistent        &      0.0783\sym{*}  &      0.0883         &      0.0682         &     -0.0102         &      0.0198         &     -0.0143         &      0.0539         &     -0.0402         \\
+                    &    (0.0412)         &    (0.0648)         &    (0.0616)         &    (0.0791)         &    (0.0417)         &    (0.0656)         &    (0.0594)         &    (0.0829)         \\
+\hline
+Observations        &         916         &         916         &         916         &         916         &         984         &         984         &         984         &         984         \\
+Task                &       COVID         &       COVID         &       COVID         &       COVID         &       Metro         &       Metro         &       Metro         &       Metro         \\
+\hline\hline
+\multicolumn{9}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{9}{l}{\footnotesize \sym{*} \(p<0.1\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}

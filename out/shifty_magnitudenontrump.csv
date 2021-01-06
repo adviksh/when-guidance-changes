@@ -1,0 +1,84 @@
+allobs,    1,241
+belowobs,      549
+atobs,      366
+aboveobs,      326
+update_covid_p,    0.008
+update_covid_beta,   -0.075
+update_covid_starbeta,-0.075***
+update_covid_se, 0.028
+update_covid_n,1241
+update_covid_r2, 0.04
+update_covid_above_p, 0.09
+update_covid_above_beta,   -0.094
+update_covid_above_starbeta,-0.094*
+update_covid_above_se, 0.055
+update_covid_above_n,326
+update_covid_above_r2, 0.07
+update_covid_at_p, 0.12
+update_covid_at_beta,   -0.080
+update_covid_at_starbeta,   -0.080
+update_covid_at_se, 0.051
+update_covid_at_n,366
+update_covid_at_r2, 0.06
+update_covid_below_p, 0.43
+update_covid_below_beta,   -0.033
+update_covid_below_starbeta,   -0.033
+update_covid_below_se, 0.042
+update_covid_below_n,549
+update_covid_below_r2, 0.07
+update_mag_deaths_p,    0.009
+update_mag_deaths_beta,   -0.834
+update_mag_deaths_starbeta,-0.834***
+update_mag_deaths_se, 0.317
+update_mag_deaths_n,1241
+update_mag_deaths_r2, 0.04
+update_mag_deaths_above_p, 0.09
+update_mag_deaths_above_beta,   -1.230
+update_mag_deaths_above_starbeta,-1.230*
+update_mag_deaths_above_se, 0.726
+update_mag_deaths_above_n,326
+update_mag_deaths_above_r2, 0.07
+update_mag_deaths_at_p, 0.21
+update_mag_deaths_at_beta,   -0.715
+update_mag_deaths_at_starbeta,   -0.715
+update_mag_deaths_at_se, 0.568
+update_mag_deaths_at_n,366
+update_mag_deaths_at_r2, 0.05
+update_mag_deaths_below_p, 0.34
+update_mag_deaths_below_beta,   -0.419
+update_mag_deaths_below_starbeta,   -0.419
+update_mag_deaths_below_se, 0.440
+update_mag_deaths_below_n,549
+update_mag_deaths_below_r2, 0.07
+update_covid_shifty_c_mean,    0.489
+update_covid_shifty_c_n, 615
+update_covid_above_shifty_c_mean,    0.462
+update_covid_above_shifty_c_n, 615
+update_covid_at_shifty_c_mean,    0.385
+update_covid_at_shifty_c_n, 615
+update_covid_below_shifty_c_mean,    0.569
+update_covid_below_shifty_c_n, 615
+update_mag_deaths_shifty_c_mean,     5.35
+update_mag_deaths_shifty_c_n, 615
+update_mag_deaths_above_shifty_c_mean,     6.00
+update_mag_deaths_above_shifty_c_n, 615
+update_mag_deaths_at_shifty_c_mean,     4.08
+update_mag_deaths_at_shifty_c_n, 615
+update_mag_deaths_below_shifty_c_mean,     5.76
+update_mag_deaths_below_shifty_c_n, 615
+update_covid_shifty_i_mean,    0.417
+update_covid_shifty_i_n, 626
+update_covid_above_shifty_i_mean,    0.351
+update_covid_above_shifty_i_n, 626
+update_covid_at_shifty_i_mean,    0.312
+update_covid_at_shifty_i_n, 626
+update_covid_below_shifty_i_mean,    0.534
+update_covid_below_shifty_i_n, 626
+update_mag_deaths_shifty_i_mean,     4.53
+update_mag_deaths_shifty_i_n, 626
+update_mag_deaths_above_shifty_i_mean,     4.52
+update_mag_deaths_above_shifty_i_n, 626
+update_mag_deaths_at_shifty_i_mean,     3.46
+update_mag_deaths_at_shifty_i_n, 626
+update_mag_deaths_below_shifty_i_mean,     5.31
+update_mag_deaths_below_shifty_i_n, 626

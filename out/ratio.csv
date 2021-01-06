@@ -1,0 +1,28 @@
+allobs,    1,900
+belowobs,      909
+atobs,      544
+aboveobs,      447
+update_covid_starbeta,0.905***
+update_covid_se,0.048
+update_covid_above_starbeta,0.814***
+update_covid_above_se,0.094
+update_covid_at_starbeta,0.898***
+update_covid_at_se,0.111
+update_covid_below_starbeta,0.955***
+update_covid_below_se,0.063
+update_covid_p_at_above,0.567
+update_covid_p_below_at,0.652
+update_covid_p_below_above,0.214
+update_covid_p_below_not,0.306
+update_mag_deaths_starbeta,0.889***
+update_mag_deaths_se,0.049
+update_mag_deaths_above_starbeta,0.818***
+update_mag_deaths_above_se,0.097
+update_mag_deaths_at_starbeta,0.915***
+update_mag_deaths_at_se,0.114
+update_mag_deaths_below_starbeta,0.917***
+update_mag_deaths_below_se,0.063
+update_mag_deaths_p_at_above,0.519
+update_mag_deaths_p_below_at,0.987
+update_mag_deaths_p_below_above,0.392
+update_mag_deaths_p_below_not,0.590

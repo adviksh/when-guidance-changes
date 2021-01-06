@@ -1,0 +1,68 @@
+\resizebox{\columnwidth}{!}{%
+\begin{tabular}{L{5.5cm} C{3.5cm} C{3.5cm} C{3.5cm} C{4cm}}
+\hline
+\hline
+                                                         &              (1)                     &      (2)                              &     (3)                             &                   (4)                 \\
+                                                         &   Proportion in                      &   Mean in                             &     Mean in                         &          $p$-value for difference     \\
+                                                         &   US adult population                &   Consistent arm                      &     Inconsistent arm                &         Consistent - Inconsistent     \\
+                                                         &                                      &  ($N$ = <n_e_tmt$ctl>)                &     ($N$ = <n_e_tmt$tmt>)           &                                       \\
+\hline
+\textbf{Demographics}                                    &                                      &                                       &                                     &                                       \\
+\textbf{Age Group}                                       &                                      &                                       &                                     &                                       \\
+18-29                                                    &      <usa$age$`18-29`>               & <d$ctl_m$age$`18-29`>                 &  <d$tmt_m$age$`18-29`>              &   <d$diff_p$age$`18-29`>              \\
+30-39                                                    &      <usa$age$`30-39`>               & <d$ctl_m$age$`30-39`>                 &  <d$tmt_m$age$`30-39`>              &   <d$diff_p$age$`30-39`>              \\
+40-49                                                    &      <usa$age$`40-49`>               & <d$ctl_m$age$`40-49`>                 &  <d$tmt_m$age$`40-49`>              &   <d$diff_p$age$`40-49`>              \\
+50-59                                                    &      <usa$age$`50-59`>               & <d$ctl_m$age$`50-59`>                 &  <d$tmt_m$age$`50-59`>              &   <d$diff_p$age$`50-59`>              \\
+60-69                                                    &      <usa$age$`60-69`>               & <d$ctl_m$age$`60-69`>                 &  <d$tmt_m$age$`60-69`>              &   <d$diff_p$age$`60-69`>              \\
+70+                                                      &      <usa$age$`70+`>                 & <d$ctl_m$age$`70+`>                   &  <d$tmt_m$age$`70+`>                &   <d$diff_p$age$`70+`>                \\
+\textbf{Female}                                          &      <usa$sex$female>                & <d$ctl_m$sex$female>                  &  <d$tmt_m$sex$female>               &   <d$diff_p$sex$female>               \\
+\textbf{Political Party}                                 &                                      &                                       &                                     &                                       \\
+Democrat                                                 &      ---                             & <d$ctl_m$political_party$dem>         &  <d$tmt_m$political_party$dem>      &   <d$diff_p$political_party$dem>      \\
+Republican                                               &      ---                             & <d$ctl_m$political_party$rep>         &  <d$tmt_m$political_party$rep>      &   <d$diff_p$political_party$rep>      \\
+Other                                                    &      ---                             & <d$ctl_m$political_party$other>       &  <d$tmt_m$political_party$other>    &   <d$diff_p$political_party$other>    \\
+\textbf{Census Region}                                   &                                      &                                       &                                     &                                       \\
+Midwest                                                  &      <usa$region$midw>               & <d$ctl_m$region$midw>                 &   <d$tmt_m$region$midw>             &   <d$diff_p$region$midw>              \\
+Northeast                                                &      <usa$region$ne>                 & <d$ctl_m$region$ne>                   &   <d$tmt_m$region$ne>               &   <d$diff_p$region$ne>                \\
+South                                                    &      <usa$region$south>              & <d$ctl_m$region$south>                &   <d$tmt_m$region$south>            &   <d$diff_p$region$south>             \\
+West                                                     &      <usa$region$west>               & <d$ctl_m$region$west>                 &   <d$tmt_m$region$west>             &   <d$diff_p$region$west>              \\
+\textbf{Race}                                            &                                      &                                       &                                     &                                       \\
+White                                                    &      <usa$race$white>                & <d$ctl_m$race$white>                  &  <d$tmt_m$race$white>               &   <d$diff_p$race$white>               \\
+Black                                                    &      <usa$race$black>                & <d$ctl_m$race$black>                  &  <d$tmt_m$race$black>               &   <d$diff_p$race$black>               \\
+Asian                                                    &      <usa$race$asian>                & <d$ctl_m$race$asian>                  &  <d$tmt_m$race$asian>               &   <d$diff_p$race$asian>               \\
+Native American                                          &      <usa$race$native>               & <d$ctl_m$race$native>                 &  <d$tmt_m$race$native>              &   <d$diff_p$race$native>              \\
+Other race                                               &      <usa$race$other>                & <d$ctl_m$race$other>                  &  <d$tmt_m$race$other>               &   <d$diff_p$race$other>               \\
+Prefer not to answer                                     &      ---                             & <d$ctl_m$race$pref>                   &  <d$tmt_m$race$pref>                &   <d$diff_p$race$pref>                \\
+\textbf{Hispanic}                                        &      <usa$hispanic$hispanic>         & <d$ctl_m$hispanic$hispanic>           &  <d$tmt_m$hispanic$hispanic>        &   <d$diff_p$hispanic$hispanic>        \\
+\textbf{Household Income}                                &                                      &                                       &                                     &                                       \\
+\$14,999 or less                                         &      <usa$hhi$`14k`>                 & <d$ctl_m$hhi$`14k`>                   &  <d$tmt_m$hhi$`14k`>                &   <d$diff_p$hhi$`14k`>                \\
+\$15,000-\$24,999                                        &      <usa$hhi$`15k`>                 & <d$ctl_m$hhi$`15k`>                   &  <d$tmt_m$hhi$`15k`>                &   <d$diff_p$hhi$`15k`>                \\
+\$25,000-\$34,999                                        &      <usa$hhi$`25k`>                 & <d$ctl_m$hhi$`25k`>                   &  <d$tmt_m$hhi$`25k`>                &   <d$diff_p$hhi$`25k`>                \\
+\$35,000-\$49,000                                        &      <usa$hhi$`35k`>                 & <d$ctl_m$hhi$`35k`>                   &  <d$tmt_m$hhi$`35k`>                &   <d$diff_p$hhi$`35k`>                \\
+\$50,000-\$74,999                                        &      <usa$hhi$`50k`>                 & <d$ctl_m$hhi$`50k`>                   &  <d$tmt_m$hhi$`50k`>                &   <d$diff_p$hhi$`50k`>                \\
+\$75,000-\$99,999                                        &      <usa$hhi$`75k`>                 & <d$ctl_m$hhi$`75k`>                   &  <d$tmt_m$hhi$`75k`>                &   <d$diff_p$hhi$`75k`>                \\
+\$100,000-\$149,999                                      &      <usa$hhi$`100k`>                & <d$ctl_m$hhi$`100k`>                  &  <d$tmt_m$hhi$`100k`>               &   <d$diff_p$hhi$`100k`>               \\
+\$150,000-\$199,999                                      &      <usa$hhi$`150k`>                & <d$ctl_m$hhi$`150k`>                  &  <d$tmt_m$hhi$`150k`>               &   <d$diff_p$hhi$`150k`>               \\
+\$200,000 or more                                        &      <usa$hhi$`200k`>                & <d$ctl_m$hhi$`200k`>                  &  <d$tmt_m$hhi$`200k`>               &   <d$diff_p$hhi$`200k`>               \\
+Prefer not to answer                                     &      <usa$hhi$`pref`>                & <d$ctl_m$hhi$pref>                    &  <d$tmt_m$hhi$pref>                 &   <d$diff_p$hhi$pref>                 \\
+\textbf{Education}                                       &                                      &                                       &                                     &                                       \\
+Some high school or less, or other                       &      <usa$education$less_hs_other>   & <d$ctl_m$education$less_hs_other>     &  <d$tmt_m$education$less_hs_other>  &   <d$diff_p$education$less_hs_other>  \\
+High school graduate                                     &      <usa$education$hs>              & <d$ctl_m$education$hs>                &  <d$tmt_m$education$hs>             &   <d$diff_p$education$hs>             \\
+Associate's degree, some college, or vocational training &      <usa$education$some_coll>       & <d$ctl_m$education$some_coll>         &  <d$tmt_m$education$some_coll>      &   <d$diff_p$education$some_coll>      \\
+Bachelor's degree                                        &      <usa$education$coll>            & <d$ctl_m$education$coll>              &  <d$tmt_m$education$coll>           &   <d$diff_p$education$coll>           \\
+Graduate or professional degree                          &      <usa$education$postgrad>        & <d$ctl_m$education$postgrad>          &  <d$tmt_m$education$postgrad>       &   <d$diff_p$education$postgrad>       \\
+\hline
+\textbf{Baseline Measures}                               &                                      &                                       &                                     &                                       \\
+Attention to COVID news                                  &      ---                             & <d$ctl_m$covid$news>                  &  <d$tmt_m$covid$news>               &   <d$diff_p$covid$news>               \\
+ln(1 + expected number of COVID deaths in next 6 months) &      ---                             & <d$ctl_m$covid$deaths>                &  <d$tmt_m$covid$deaths>             &   <d$diff_p$covid$deaths>             \\
+Government action is not strong enough                   &      ---                             & <d$ctl_m$govt$weak>                   &  <d$tmt_m$govt$weak>                &   <d$diff_p$govt$weak>                \\
+Government action is appropriate                         &      ---                             & <d$ctl_m$govt$appropriate>            &  <d$tmt_m$govt$appropriate>         &   <d$diff_p$govt$appropriate>         \\
+Government is overreacting                               &      ---                             & <d$ctl_m$govt$overreact>              &  <d$tmt_m$govt$overreact>           &   <d$diff_p$govt$overreact>           \\
+Government has, and acts on, private information         &      ---                             & <d$ctl_m$govt$info>                   &  <d$tmt_m$govt$info>                &   <d$diff_p$govt$info>                \\
+\hline
+\multicolumn{3}{l}{}                                                                                                                    & \multicolumn{1}{l}{\textbf{Omnibus \textit{F} test}} &  $p$-value           \\
+\multicolumn{3}{l}{}                                                                                                                    & \multicolumn{1}{l}{Unadjusted:}             &  <f_raw>                      \\
+\multicolumn{3}{l}{}                                                                                                                    & \multicolumn{1}{l}{With stratum FE:}        &  <f_adj>                      \\
+\hline
+\hline
+\end{tabular}
+}

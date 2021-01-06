@@ -1,0 +1,17 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{3}{c}}
+\hline\hline
+                    &\multicolumn{1}{c}{(1)}         &\multicolumn{1}{c}{(2)}         &\multicolumn{1}{c}{(3)}         \\
+                    &\shortstack{Update magnitude: \\ $ \ln(|\text{posterior}-\text{prior} | + 1) $}         &\shortstack{Update propensity: \\ 1(chooses to update)}         &\shortstack{Government \\ credibility index}         \\
+\hline
+Inconsistent        &      -0.592\sym{**} &     -0.0470\sym{**} &     -0.0303\sym{*}  \\
+                    &     (0.263)         &    (0.0238)         &    (0.0165)         \\
+\hline
+Observations        &        1702         &        1702         &        1702         \\
+$p$-value           &        .025         &        .049         &        .067         \\
+\hline\hline
+\multicolumn{4}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{4}{l}{\footnotesize \sym{*} \(p<0.1\), \sym{**} \(p<0.05\), \sym{***} \(p<0.01\)}\\
+\end{tabular}
+}

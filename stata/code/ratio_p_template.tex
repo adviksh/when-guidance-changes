@@ -1,0 +1,34 @@
+\begin{tabular}{l c c c}
+  \hline
+  \hline
+ & (1) & (2) & (3) \\ 
+  Sample: & \shortstack{Update propensity: \\
+  $1(\text{chooses to update})$} & \shortstack{Update magnitude: \\ $\ln(|\text{posterior} -
+  \text{prior}|+1)$} & $N$ \\ 
+  \hline  
+1. All & $$update_covid_starbeta$$ & $$update_mag_deaths_starbeta$$ & $$allobs$$ \\
+  & ($$update_covid_se$$) & ($$update_mag_deaths_se$$) \\
+  \\
+2. Priors below projection (optimists) & $$update_covid_below_starbeta$$
+       & $$update_mag_deaths_below_starbeta$$ & 
+ $$belowobs$$ \\
+  & ($$update_covid_below_se$$) & ($$update_mag_deaths_below_se$$) \\
+  \\
+3. Priors at projection & $$update_covid_at_starbeta$$ & $$update_mag_deaths_at_starbeta$$
+          & $$atobs$$ \\
+  & ($$update_covid_at_se$$) & ($$update_mag_deaths_at_se$$) \\
+  \\
+4. Priors above projection (pessimists) & $$update_covid_above_starbeta$$ & $$update_mag_deaths_above_starbeta$$
+          & $$aboveobs$$ \\
+  & ($$update_covid_above_se$$) & ($$update_mag_deaths_above_se$$) \\
+  \hline
+  5. \ul{Tests}: \\
+  \ \ \ \ \ \ \ \   Row 2 vs. Row 3 & $$update_covid_p_below_at$$
+       & $$update_mag_deaths_p_below_at$$ \\  
+  \ \ \ \ \ \ \ \   Row 3 vs. Row 4 & $$update_covid_p_at_above$$ 
+             & $$update_mag_deaths_p_at_above$$ \\ 
+  \ \ \ \ \ \ \ \  Row 2 vs. Row 4 & $$update_covid_p_below_above$$ & $$update_mag_deaths_p_below_above$$ \\   
+  \hline   
+  \hline 
+\end{tabular}
+

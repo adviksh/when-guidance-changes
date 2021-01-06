@@ -1,0 +1,68 @@
+# Functions --------------------------------------------------------------------
+# Run and log an R script
+r     = Rscript --vanilla --verbose $(strip $(1)) > R/log/$(call file_slug,$(1)).log 2>&1
+
+# Print a variable
+# Run "make print-..."
+print-%  : ; @echo $* = $($*)
+
+# Replaces "x" with "%"
+# See: https://stackoverflow.com/a/3077254
+target_all_graphs = $(subst .pdf,%,$(1))
+
+# Return just a file name: "dir/script.R" -> "script"
+#
+# Arguments:
+# 1: A filepath
+#
+# Example: $(call file_slug,dir/script.R)
+# Output:  script
+#
+file_slug = $(basename $(notdir $(1)))
+
+# Temp Vars --------------------------------------------------------------------
+out_dir  := out
+
+steady_shifty_graphs := $(out_dir)/post_steady_shifty_update.pdf
+steady_shifty_graphs += $(out_dir)/post_steady_shifty_ratio.pdf
+steady_shifty_graphs += $(out_dir)/post_steady_shifty_cred.pdf
+
+action_graphs := $(out_dir)/action_effect.pdf      $(out_dir)/action_effect_moderate.pdf
+info_graphs   := $(out_dir)/information_effect.pdf $(out_dir)/information_effect_medium.pdf
+
+# ALL --------------------------------------------------------------------------
+all: $(out_dir)/tb_composition.tex $(out_dir)/tb_attrition.tex
+all: $(steady_shifty_graphs)
+all: $(action_graphs)
+all: $(info_graphs)
+all: $(out_dir)/posterior_omega_2.pdf
+all: $(out_dir)/posterior_credibility.pdf
+all: $(out_dir)/update_mag_deaths_cutoffs_abs.pdf
+all: $(out_dir)/three-state_credibility-loss.pdf
+
+$(out_dir)/tb_composition.tex: R/01_composition.R data/public_data.rds R/template_composition.txt data/demographics_usa.csv
+	$(call r, $<)
+
+$(out_dir)/tb_attrition.tex: R/03_attrition.R data/public_data.rds R/template_attrition.txt
+	$(call r, $<)
+
+$(call target_all_graphs,$(steady_shifty_graphs)): R/04_plot-posterior-steady-shifty.R
+	$(call r, $<)
+
+$(call target_all_graphs,$(action_graphs)): R/05_plot-action-effect.R
+	$(call r, $<)
+
+$(call target_all_graphs,$(info_graphs)): R/06_plot-info-effect.R
+	$(call r, $<)
+
+$(out_dir)/posterior_omega_2.pdf: R/07_plot-posterior-omega-2.R
+	$(call r, $<)
+
+$(out_dir)/posterior_credibility.pdf: R/08_plot-posterior-credibility.R
+	$(call r, $<)
+
+$(out_dir)/update_mag_deaths_cutoffs_abs.pdf: R/10_cutoff-regressions.R
+	$(call r, $<)
+
+$(out_dir)/three-state_credibility-loss.pdf: R/11_plot-three-state-model.R
+	$(call r, $<)
