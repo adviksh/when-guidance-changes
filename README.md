@@ -18,6 +18,7 @@ We performed most of the analysis using Stata 13. The following packages are req
 - ivreghdfe
 - ftools
 - ivreg2
+- ranktest
 
 We performed some remaining analyses in R version R 4.0.2, with scripts controlled by GNU Make version 3.81. The following R packages are required:
 - tidyverse 1.3.0
